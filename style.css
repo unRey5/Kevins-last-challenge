@@ -1,0 +1,172 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 1rem;
+}
+
+header {
+    background-color: #2E323F;
+    color: #fff;
+    text-align: center;
+    padding: .6rem;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+}
+
+.hero-area {
+    background-color: #3B4050;
+    padding: 6rem 0;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.hero-button {
+    text-decoration: none;
+    background-color: #A59678;
+    text-transform: uppercase;
+    padding: .6rem 2rem;
+    border-radius: 2rem;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    opacity: .7;
+}
+
+.hero-text-right {
+    padding: 4rem 0;
+}
+
+.colorful-hero-text {
+    color: #A59678;
+}
+
+
+
+.aside-text-wrapper {
+  text-align: center;
+  margin-top: 1rem;
+  line-height: 1.5;
+  padding: 2rem;
+}
+
+.aside-text-wrapper h3 {
+  color: #A59678;
+  font-size: 18px;
+}
+
+.aside-area {
+    background-color: azure;
+    margin-bottom: 2rem;
+}
+
+.second-text img{
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.second-text h3 {
+    color: #A59678;
+    font-size: 1.5rem;
+}
+
+.second-text-area {
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+
+
+.right-text {
+    background-color: #2E323F;
+    color: #fff;
+    text-align: center;
+    padding: 3rem;
+    margin-top: 1rem;
+}
+
+
+
+
+@media (min-width: 800px) {
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .second-text-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .second-text {
+    width: 55%;
+}
+
+.second-right-text {
+    width: 30%;
+    margin: 20px;
+    
+}
+
+ul {
+    display: flex;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1rem;
+    margin-top: .3rem;
+}
+
+.list-item a:hover,
+.list-item a:focus {
+    border-bottom: 2px solid #A59678;
+}
+
+.hero-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-text {
+    padding: 1.5rem;
+}
+
+}

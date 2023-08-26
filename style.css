@@ -11,19 +11,20 @@ body {
     font-size: 1rem;
 }
 
-header {
-    background-color: #2E323F;
-    color: #fff;
-    text-align: center;
-    padding: .6rem;
-}
-
 .container {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Styling the header nav area */
+
+header {
+    background-color: #2E323F;
+    color: #fff;
+    text-align: center;
+    padding: .6rem;
+}
 
 ul {
     list-style-type: none;
@@ -57,7 +58,7 @@ h1 {
     background-color: #3B4050;
     padding: 5rem 0;
     color: #fff;
-    line-height: 1.5;
+    line-height: 1.3;
 }
 
 .hero-button {
@@ -75,10 +76,6 @@ h1 {
 .hero-button:hover,
 .hero-button:focus {
     opacity: .7;
-}
-
-.hero-text-right {
-    margin: 5rem 0;
 }
 
 .colorful-hero-text {
@@ -165,29 +162,64 @@ footer h2 {
 
 @media (min-width: 800px) {
 
-    h1 {
-        font-size: 4rem;
+    /* h1 {
+        font-size: 90px;
+        
     }
+
+    .hero-area {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid green;
+    }
+
+    } */
+
+    .hero-wrapper {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .hero-text {
+        border: 2px solid yellow;
+        width: 50%;
+    }
+
+    .hero-text-right {
+        border: 2px solid green;
+        margin-top: 15rem;
+        width: 35%;
+    }
+
+    .hero-tittle {
+        font-size: 70px;
+    }
+
+    .hero-text-right {
+    }
+
     .row {
         display: flex;
         justify-content: space-between;
         border: 1px solid red;
-        /* align-items: center; */
+        align-items: center;
     }
 
     .second-text-wrapper {
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
+        gap: 10px;
     }
 
     .second-text {
-    width: 55%;
+    width: 60%;
 }
 
 .second-right-text {
     width: 30%;
-    margin: 20px;
     
 }
 
@@ -212,11 +244,6 @@ footer h2 {
     background-color: #A59678;
     padding: .2rem 1rem;
     border-radius: 2rem;
-}
-
-.hero-area {
-    display: flex;
-    justify-content: space-between;
 }
 
 

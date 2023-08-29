@@ -25,9 +25,9 @@ header {
     text-align: center;
 }
 
-nav {
+/* nav {
     width: 100%;
-}
+} */
 
 .nav-toggle {
   cursor: pointer;
